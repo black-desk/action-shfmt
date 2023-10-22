@@ -12,3 +12,5 @@ echo '::endgroup::'
 
 # shellcheck disable=SC2086
 "${TEMP_PATH}/shfmt" ${INPUT_SHFMT_FLAGS} -w .
+
+git submodule update --force --recursive
